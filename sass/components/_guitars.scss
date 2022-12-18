@@ -1,0 +1,105 @@
+.guitars {
+    padding-bottom: 80px;
+
+    @media screen and (max-width: 767.98px) {
+        padding-bottom: 50px;
+    }
+}
+
+.guitars__container {
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
+
+}
+
+.guitars__content {
+    flex: 0 1 50%;
+    align-self: flex-end;
+    padding-top: 120px;
+
+    padding-right: 20px;
+
+    @media screen and (max-width: 767.98px) {
+        padding-right: 0px;
+        padding-top: 90px;
+    }
+
+    @media screen and (min-width: 768px) {
+        padding-bottom: 60px;
+    }
+
+}
+
+.guitars__title {
+    font-family: $accent-font;
+    font-size: 56px;
+    text-align: left;
+    @media screen and (max-width: 767.98px) {
+            font-size: 38px;
+        }
+}
+
+.guitars__text {
+    font-family: inherit;
+    font-weight: 500;
+    margin-bottom: 33px;
+    max-width: 420px;
+}
+
+.actions-main {
+    display: flex;
+    align-items: center;
+}
+
+.actions-main__button {
+    padding: 18px 48px;
+    background-color: $accent-color;
+    color: #fff;
+    border-radius: 40px;
+    font-family: inherit;
+    font-weight: 600;
+    margin-right: 40px;
+    transition: all 0.5s ease 0s;
+
+    @media screen and (max-width: 767.98px) {
+        padding: 12px 18px;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: $secondary-color;
+        color: $accent-color;
+    }
+
+}
+
+.actions-main__icon:not(:last-child) {
+    margin-right: 27px;
+}
+
+.guitars__decor {
+    flex: 0 1 50%;
+
+    @media screen and (max-width: 767.98px) {
+        display: none;
+    }
+
+}
+
+.guitars__image {
+    position: relative;
+    margin-right: -135px;
+}
+
+.guitars__image::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    right: 36.3%;
+    bottom: 0;
+    transform: translate(0, 50%);
+    background: url("../img/guitars/decor.svg") 0 0 no-repeat;
+
+}

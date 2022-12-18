@@ -1,0 +1,38 @@
+.favorite__container {
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width: 767.98px) {
+        flex-direction: column;
+    }
+}
+
+.favorite__content {
+    flex: 0 1 50%;
+
+}
+
+.favorite__title {
+    font-size: 48px;
+    text-align: left;
+    line-height: 1.4;
+
+    @media screen and (max-width: 767.98px) {
+        font-size: 38px;
+    }
+}
+
+.favorite__apps {
+    display: flex;
+
+    @media screen and (max-width: 767.98px) {}
+}
+
+.favorite__images {
+    flex: 0 1 50%;
+    text-align: center;
+}
+
+.apps-favorite__item:not(:last-child) {
+    margin-right: 25px;
+}

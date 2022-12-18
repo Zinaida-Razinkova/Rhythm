@@ -1,0 +1,21 @@
+.brands__items {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 80px;
+    max-width: 1020px;
+    margin: 0 auto;
+
+    @media screen and (max-width: 991.98px) {
+        row-gap: 50px;
+        grid-template-columns: repeat(3, auto);
+    }
+
+    @media screen and (max-width: 767.98px) {
+        row-gap: 20px;
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+    }
+}

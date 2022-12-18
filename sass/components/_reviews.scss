@@ -1,0 +1,124 @@
+.slide-swiper-reviews {
+    display: flex;
+
+    @media screen and (max-width: 991.98px) {
+        flex-direction: column;
+    }
+}
+
+.slide-swiper-reviews__picture {
+    flex: 0 1 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 991.98px) {
+        margin-bottom: 40px;
+    }
+}
+
+.slide-swiper-reviews__image {
+    position: relative;
+    width: 320px;
+    height: 320px;
+
+    @media screen and (max-width: 991.98px) {
+        width: 270px;
+        height: 270px;
+    }
+}
+
+.slide-swiper-reviews__image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: center;
+    border-radius: 50%;
+}
+
+.slide-swiper-reviews__image::before {
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: -57px;
+    width: 285px;
+    height: 257px;
+    background-color: #FF6428;
+    border-radius: 40px 0px 400px 400px;
+    transform: rotate(-7.72deg);
+
+    @media screen and (max-width: 479.98px) {
+        display: none;
+    }
+}
+
+.slide-swiper-reviews__body {
+    flex: 0 1 50%;
+
+    @media screen and (max-width: 479.98px) {
+        text-align: center;
+    }
+}
+
+.slide-swiper-reviews__text {
+    font-family: inherit;
+    font-size: 24px;
+    line-height: 1.6;
+    color: #666666;
+    margin-bottom: 56px;
+
+    @media screen and (max-width: 479.98px) {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+}
+
+.slide-swiper-reviews__name {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.6;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.slide-swiper-reviews__position {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.08em;
+    color: #868686;
+}
+
+.swiper-reviews__pagination {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.swiper-reviews__pagination.swiper-pagination {
+    position: relative;
+    bottom: 0;
+
+    margin-top: 30px;
+
+    @media screen and (max-width: 479.98px) {
+        justify-content: center;
+    }
+}
+
+.swiper-reviews__pagination .swiper-pagination-bullet {
+    flex: 0 0 10px;
+    height: 16px;
+    opacity: 1;
+    background: #C4C4C4;
+    border-radius: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+.swiper-reviews__pagination .swiper-pagination-bullet-active {
+    flex: 0 0 24px;
+    background: #FF6428;
+}

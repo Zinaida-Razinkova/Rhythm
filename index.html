@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <title>Rhythm</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@0.7.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container  header__container">
+                <a href="./index.html"><img class="header__logo" src="./img/logo.svg" alt="Logo"></a>
+                <div class="header__menu" data-menu>
+                    <nav class="header__nav nav">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a class="nav__link" href="">Store</a></li>
+                            <li class="nav__item"><a class="nav__link" href="">Collections</a></li>
+                            <li class="nav__item"><a class="nav__link" href="">Support</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__button">
+                    <button class="burger" aria-expanded="false" type="button" data-menu-button>
+                        <svg width="22" height="22" aria-label="Mobile menu">
+                            <use class="burger__close" href="./img/sprite.svg#burgerclose"></use>
+                            <use class="burger__burger" href="./img/sprite.svg#burgermenu"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="guitars">
+                <div class="container  guitars__container">
+                    <div class="guitars__content">
+                        <h1 class="guitars__title title mb_60">Browse top quality <span class="title-accent">Guitars</span> online
+                        </h1>
+                        <p class="guitars__text">Explore 50k+ latest collections of branded guitars online with Rhythm.
+                        </p>
+                        <div class="guitars__actions actions-main">
+                            <a href="" class="actions-main__button">Get the App</a>
+                            <div class="actions-main__icon">
+                                <img src="./img/guitars/google.svg" alt="Google Icon">
+                            </div>
+                            <div class="actions-main__icon">
+                                <img src="./img/guitars/apple.svg" alt="Apple Icon">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="guitars__decor">
+                        <div class="guitars__image">
+                            <img src="./img/guitars/guitars-decor.png" alt="guitars Decor">
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="store pd_100">
+                <div class="container store__container ">
+                    <h2 class="store__title title mb_80">Check out the <span class="title-accent">Store</span> </h2>
+                    <div class="store__body body-store">
+                        <div class="body-stor__header">
+                            <div class="body-stor__title">NEW ON THE BOARD</div>
+                            <a href="" class="body-stor__all">view all</a>
+                        </div>
+                        <div class="body-stor__items">
+                            <div class="body-stor__item item">
+                                <a href="" class="item__image"><img src="./img/store/01.jpg" alt="Red guitar"></a>
+                                <a href="" class="item__title">The Essential Les Pau</a>
+                                <p class="item__price">$1,299.00</p>
+                            </div>
+                            <div class="body-stor__item item">
+                                <a href="" class="item__image"><img src="./img/store/02.jpg" alt="Blue guitar"></a>
+                                <a href="" class="item__title">J-45 Standard</a>
+                                <p class="item__price">$1,699.00</p>
+                            </div>
+                            <div class="body-stor__item item">
+                                <a href="" class="item__image"><img src="./img/store/03.jpg" alt="Dark guitar"></a>
+                                <a href="" class="item__title">Hummingbird Standard</a>
+                                <p class="item__price">$2,099.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="store__body body-store">
+                        <div class="body-stor__header">
+                            <div class="body-stor__title">TOP SELLING</div>
+                            <a href="" class="body-stor__all">view all</a>
+                        </div>
+                        <div class="body-stor__items">
+                            <div class="body-stor__item item">
+                                <a href="" class="item__image"><img src="./img/store/04.jpg" alt="Bass guitar"></a>
+                                <a href="" class="item__title">Active Precision Bass® PH V</a>
+                                <p class="item__price">$4,199.00</p>
+                            </div>
+                            <div class="body-stor__item item">
+                                <a href="" class="item__image"><img src="./img/store/05.jpg" alt="Redondo guitar"></a>
+                                <a href="" class="item__title">Redondo Special</a>
+                                <p class="item__price">$2,800.00</p>
+                            </div>
+                            <div class="body-stor__item item">
+                                <a href="" class="item__image"><img src="./img/store/06.jpg"
+                                        alt="Professional guitar"></a>
+                                <a href="" class="item__title">Professional II Stratocaster®</a>
+                                <p class="item__price">$3,199.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="categories pd_100">
+                <div class="container categories-container">
+                    <h2 class="categories__title title mb_80">Choose based on <span class="title-accent">Categories</span>
+                    </h2>
+                    <div class="categories__items">
+                        <a class="categories__item item-category">
+                            <p class="item-category__title">Acoustic</p>
+                            <div class="item-category__image"><img src="./img/categories/01.jpg" alt="Acoustic guitars">
+                            </div>
+                        </a>
+                        <a class="categories__item item-category">
+                            <p class="item-category__title">Electric</p>
+                            <div class="item-category__image"><img src="./img/categories/02.jpg" alt="Electric guitars">
+                            </div>
+                        </a>
+                        <a class="categories__item item-category">
+                            <p class="item-category__title">Basses</p>
+                            <div class="item-category__image"><img src="./img/categories/03.jpg" alt="Basses guitars">
+                            </div>
+                        </a>
+                        <a class="categories__item item-category">
+                            <p class="item-category__title">Collections</p>
+                            <div class="item-category__image"><img src="./img/categories/04.jpg"
+                                    alt="Collections guitars"></div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="brands pd_100">
+                <div class="container brands__container">
+                    <h2 class="brands__title title mb_80">Featuring the <span class="title-accent">Best Brands</span></h2>
+                    <div class="brands__items">
+                        <div class="brands__item">
+                            <a href=""><img src="./img/brands/01.jpg" alt="Brands Ibanez"></a>
+                        </div>
+                        <div class="brands__item">
+                            <a href=""><img src="./img/brands/02.jpg" alt="Brands Martin"></a>
+                        </div>
+                        <div class="brands__item">
+                            <a href=""><img src="./img/brands/03.jpg" alt="Brands Fender"></a>
+                        </div>
+                        <div class="brands__item">
+                            <a href=""><img src="./img/brands/04.jpg" alt="Brands Gibson"></a>
+                        </div>
+                        <div class="brands__item">
+                            <a href=""><img src="./img/brands/05.jpg" alt="Brands Taylor"></a>
+                        </div>
+                        <div class="brands__item">
+                            <a href=""><img src="./img/brands/06.jpg" alt="Brands Gretsch"></a>
+                        </div>
+                        <div class="brands__item">
+                            <a href=""><img src="./img/brands/07.jpg" alt="Brands Takamine"></a>
+                        </div>
+                        <div class="brands__item">
+                            <a href=""><img src="./img/brands/08.jpg" alt="Brands Seagull"></a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="why pd_100">
+                <div class="container why__container">
+                    <h2 class="why__title title mb_80">Why try <span class="title-accent">Rhythm?</span></h2>
+                    <ul class="why__items">
+                        <li class="why__item item-why">
+                            <div class="item-why__icon">
+                                <img src="./img/why/01.svg" alt="Smooth Browsing">
+                            </div>
+                            <h3 class="item-why__title">Smooth Browsing</h3>
+                            <p class="item-why__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </li>
+                        <li class="why__item item-why">
+                            <div class="item-why__icon">
+                                <img src="./img/why/02.svg" alt="EASY Delivery">
+                            </div>
+                            <h3 class="item-why__title">EASY Delivery</h3>
+                            <p class="item-why__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </li>
+                        <li class="why__item item-why">
+                            <div class="item-why__icon">
+                                <img src="./img/why/03.svg" alt="SwiFT PAYMENTS">
+                            </div>
+                            <h3 class="item-why__title">SwiFT PAYMENTS</h3>
+                            <p class="item-why__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="reviews pd_100">
+                <div class="container reviews__container">
+                    <h2 class="reviews__title title mb_80"> What our <span class="title-accent">customer’s</span> say</h2>
+
+                    <!-- Slider main container -->
+                    <div class="reviews__swiper swiper-reviews  swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-reviews__wrapper swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-reviews__slide slide-swiper-reviews swiper-slide">
+                                <div class="slide-swiper-reviews__picture">
+                                    <div class="slide-swiper-reviews__image">
+                                        <img src="./img/reviews/01.jpg" alt="Ryan Wels">
+                                    </div>
+                                </div>
+                                <div class="slide-swiper-reviews__body">
+                                    <div class="slide-swiper-reviews__text">“The Quality and Delivery is always on time,
+                                        being a
+                                        professional guitarist myself I love the customer service the brand
+                                        provides, highly recommend Rhythm anytime.”</div>
+                                    <div class="slide-swiper-reviews__author">
+                                        <div class="slide-swiper-reviews__name">Ryan Wels</div>
+                                        <div class="slide-swiper-reviews__position">PROFESSIONAL GUITARIST</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-reviews__slide slide-swiper-reviews swiper-slide">
+                                <div class="slide-swiper-reviews__picture">
+                                    <div class="slide-swiper-reviews__image">
+                                        <img src="./img/reviews/02.jpg" alt="Willard Carroll">
+                                    </div>
+                                </div>
+
+                                <div class="slide-swiper-reviews__body">
+                                    <div class="slide-swiper-reviews__text">“The Quality and Delivery is always on time,
+                                        being a
+                                        professional guitarist myself I love the customer service the brand
+                                        provides, highly recommend Rhythm anytime.”</div>
+                                    <div class="slide-swiper-reviews__author">
+                                        <div class="slide-swiper-reviews__name">Willard Carroll</div>
+                                        <div class="slide-swiper-reviews__position">PROFESSIONAL GUITARIST</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-reviews__slide slide-swiper-reviews swiper-slide">
+                                <div class="slide-swiper-reviews__picture">
+                                    <div class="slide-swiper-reviews__image">
+                                        <img src="./img/reviews/03.jpg" alt="B.B. King">
+                                    </div>
+                                </div>
+
+                                <div class="slide-swiper-reviews__body">
+                                    <div class="slide-swiper-reviews__text">“The Quality and Delivery is always on time,
+                                        being a
+                                        professional guitarist myself I love the customer service the brand
+                                        provides, highly recommend Rhythm anytime.”</div>
+                                    <div class="slide-swiper-reviews__author">
+                                        <div class="slide-swiper-reviews__name">B.B. King</div>
+                                        <div class="slide-swiper-reviews__position">PROFESSIONAL GUITARIST</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-reviews__slide slide-swiper-reviews swiper-slide">
+                                <div class="slide-swiper-reviews__picture">
+                                    <div class="slide-swiper-reviews__image">
+                                        <img src="./img/reviews/04.jpg" alt="Eric Clapton">
+                                    </div>
+                                </div>
+                                <div class="slide-swiper-reviews__body">
+                                    <div class="slide-swiper-reviews__text">“The Quality and Delivery is always on time,
+                                        being a
+                                        professional guitarist myself I love the customer service the brand
+                                        provides, highly recommend Rhythm anytime.”</div>
+                                    <div class="slide-swiper-reviews__author">
+                                        <div class="slide-swiper-reviews__name">Eric Clapton</div>
+                                        <div class="slide-swiper-reviews__position">PROFESSIONAL GUITARIST</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-reviews__pagination swiper-pagination"></div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="favorite pd_100">
+                <div class="container favorite__container">
+                    <div class="favorite__content">
+                        <h2 class="favorite__title title mb_60">Browse and buy your <span class="title-accent">favorite
+                                guitars</span> with Rhythm.</h2>
+                        <div class="favorite__apps apps-favorite">
+                            <a href="" class="apps-favorite__item"><img src="./img/favorite/google.jpg"
+                                    alt="Google app"></a>
+                            <a href="" class="apps-favorite__item"><img src="./img/favorite/apple.jpg"
+                                    alt="Apple app"></a>
+                        </div>
+                    </div>
+                    <div class="favorite__images">
+                        <img src="./img/favorite/image.jpg" alt="Favorite guitars">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container footer__container">
+                <div class="footer__content content-footer">
+                    <div class="content-footer__column column-footer__column-full">
+                        <a href="" class="content-footer__logo"><img src="./img/footer/logo.svg" alt="Footer logo"></a>
+                        <ul class="content-footer__contacts contacts-footer">
+                            <li class="contacts-footer__item">
+                                <a href="mailto:enquiry@Rhythm.com"
+                                    class="contacts-footer__link contacts-footer__link-mail"> Enquiry@Rhythm.com</a>
+                            </li>
+                            <li class="contacts-footer__item">
+                                <a href="" class="contacts-footer__link contacts-footer__link-location">San
+                                    Francisco</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="content-footer__column">
+                        <nav class="content-footer__nav nav-footer">
+                            <div class="nav-footer__column">
+                                <p class="nav-footer__title">Pages</p>
+                                <ul class="nav-footer__list">
+                                    <li class="nav-footer__item">
+                                        <a href="" class="nav-footer__link">Store</a>
+                                    </li>
+                                    <li class="nav-footer__item">
+                                        <a href="" class="nav-footer__link">Collections</a>
+                                    </li>
+                                    <li class="nav-footer__item">
+                                        <a href="" class="nav-footer__link">Support</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="nav-footer__column">
+                                <p class="nav-footer__title">Product</p>
+                                <ul class="nav-footer__list">
+                                    <li class="nav-footer__item">
+                                        <a href="" class="nav-footer__link">Terms</a>
+                                    </li>
+                                    <li class="nav-footer__item">
+                                        <a href="" class="nav-footer__link">PrivacyPolicy</a>
+                                    </li>
+                                    <li class="nav-footer__item">
+                                        <a href="" class="nav-footer__link">Copyright</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="nav-footer__column">
+                                <div class="nav-footer__social social-footer">
+                                    <p class="social-footer__title">Follow us</p>
+                                    <ul class="social-footer__list">
+                                        <li class="social-footer__items"><a href=""><img
+                                                    src="./img/footer/social/01.svg" alt="Icon Facebook"></a></li>
+                                        <li class="social-footer__items"><a href=""><img
+                                                    src="./img/footer/social/02.svg" alt="Icon Instagram"></a></li>
+                                        <li class="social-footer__items"><a href=""><img
+                                                    src="./img/footer/social/03.svg" alt="Icon Twitter"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+
+                </div>
+                <p class="footer__copy">© 2022 Copyright.Rhythm</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/swiper.js"></script>
+
+</body>
+
+</html>

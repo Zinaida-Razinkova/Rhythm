@@ -1,0 +1,16 @@
+.title {
+    font-family: $accent-font;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 1.2;
+    text-align: center;
+    color: $secondary-color;
+
+    @media screen and (max-width: 767.98px) {
+        font-size: 38px;
+    }
+}
+
+.title-accent {
+    color: $accent-color;
+}
